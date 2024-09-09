@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:aqua;
+}
+.container{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 5%;
+}
+.container h1{
+    margin: 20px;
+}
+.controls{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 30px auto;
+}
+.controls div{
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    cursor: pointer;
+
+}
